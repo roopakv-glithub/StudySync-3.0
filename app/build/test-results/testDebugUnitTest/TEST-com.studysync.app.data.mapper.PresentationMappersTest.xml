@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.studysync.app.data.mapper.PresentationMappersTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-03T13:18:04.795Z" hostname="DESKTOP-CPC5H5V" time="0.024">
+  <properties/>
+  <testcase name="word count treats repeated whitespace and newlines consistently" classname="com.studysync.app.data.mapper.PresentationMappersTest" time="0.007"/>
+  <testcase name="lab only and different teachers remain distinguishable" classname="com.studysync.app.data.mapper.PresentationMappersTest" time="0.011"/>
+  <testcase name="theory and lab form one embedded subject without losing channel ids" classname="com.studysync.app.data.mapper.PresentationMappersTest" time="0.002"/>
+  <testcase name="calendar uses local due date across midnight" classname="com.studysync.app.data.mapper.PresentationMappersTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.0" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/studysync/app/ui/screens/NotesScreen.kt"
+                            line="81"
+                            column="105"
+                            startOffset="6000"
+                            endLine="81"
+                            endColumn="146"
+                            endOffset="6041"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.studysync.app.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="65"
+            endLine="3"
+            endColumn="28"
+            endOffset="80"/>
+        <entry
+            name="model"
+            string="drawable[ic_launcher(U)],string[app_name(D)],style[Theme_StudySync(U)];;;;"/>
+    </map>
+
+</incidents>

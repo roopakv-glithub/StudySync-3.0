@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.studysync.app.data.repository.AcademicRepositoryTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-10-03T13:18:04.828Z" hostname="DESKTOP-CPC5H5V" time="0.585">
+  <properties/>
+  <testcase name="upstreamCaptchaErrorIsNotInvalidCredentials" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.426"/>
+  <testcase name="loginUsesActualContractAndPreservesPassword" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.01"/>
+  <testcase name="incompleteSessionsNeverAuthenticate" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.022"/>
+  <testcase name="emptyCredentialsDoNotMakeRequests" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.003"/>
+  <testcase name="repeatedCaptchaFailureStopsAfterTwoAttempts" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.009"/>
+  <testcase name="dnsFailureDoesNotLeakExceptionDetails" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.032"/>
+  <testcase name="timeoutAndTlsHaveDistinctMessages" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.011"/>
+  <testcase name="gatewayHtmlErrorKeepsHttpClassification" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.008"/>
+  <testcase name="logoutAndFailedReloginClearSession" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.011"/>
+  <testcase name="invalidPasswordIsNotRetried" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.008"/>
+  <testcase name="rateLimitIsNotRetried" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.007"/>
+  <testcase name="coroutineCancellationIsNotPresentedAsNetworkFailure" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.003"/>
+  <testcase name="malformedSuccessIsAResponseError" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.009"/>
+  <testcase name="captchaFailureRetriesOnceThenSucceeds" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.008"/>
+  <testcase name="redirectDoesNotForwardCredentials" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.006"/>
+  <testcase name="expiredPasswordHasActionableMessage" classname="com.studysync.app.data.repository.AcademicRepositoryTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

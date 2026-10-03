@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.0" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.9.0 is available: 9.4.1. (There is also a newer version of 8.9.𝑥 available, if upgrading to 9.4.1 is difficult: 8.9.3)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 9.4.1"
+                family="Update versions"
+                oldString="8.9.0"
+                replacement="9.4.1"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.9.3"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.9.0"
+                replacement="8.9.3"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="18"
+            endLine="2"
+            endColumn="14"
+            endOffset="25"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.19.1">
+        <fix-replace
+            description="Change to 1.19.1"
+            family="Update versions"
+            oldString="1.15.0"
+            replacement="1.19.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="4"
+            column="10"
+            startOffset="54"
+            endLine="4"
+            endColumn="18"
+            endOffset="62"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.2.1"
+            replacement="1.3.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="6"
+            column="16"
+            startOffset="97"
+            endLine="6"
+            endColumn="23"
+            endOffset="104"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.6.1"
+            replacement="3.7.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="7"
+            column="16"
+            startOffset="121"
+            endLine="7"
+            endColumn="23"
+            endOffset="128"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.7 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.8.7"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="8"
+            column="22"
+            startOffset="151"
+            endLine="8"
+            endColumn="29"
+            endOffset="158"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.7 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.8.7"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="8"
+            column="22"
+            startOffset="151"
+            endLine="8"
+            endColumn="29"
+            endOffset="158"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.9.3"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="9"
+            column="19"
+            startOffset="178"
+            endLine="9"
+            endColumn="26"
+            endOffset="185"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.12.01 is available: 2026.09.00">
+        <fix-replace
+            description="Change to 2026.09.00"
+            family="Update versions"
+            oldString="2024.12.01"
+            replacement="2026.09.00"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="10"
+            column="14"
+            startOffset="200"
+            endLine="10"
+            endColumn="26"
+            endOffset="212"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.8.5 is available: 2.10.2">
+        <fix-replace
+            description="Change to 2.10.2"
+            family="Update versions"
+            oldString="2.8.5"
+            replacement="2.10.2"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="11"
+            column="21"
+            startOffset="234"
+            endLine="11"
+            endColumn="28"
+            endOffset="241"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.material:material-icons-extended than 1.7.6 is available: 1.7.8">
+        <fix-replace
+            description="Change to 1.7.8"
+            family="Update versions"
+            oldString="1.7.6"
+            replacement="1.7.8"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/study_sync_3.0/gradle/libs.versions.toml"
+            line="12"
+            column="25"
+            startOffset="267"
+            endLine="12"
+            endColumn="32"
+            endOffset="274"/>
+    </incident>
+
+</incidents>
